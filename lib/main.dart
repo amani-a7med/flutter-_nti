@@ -8,9 +8,9 @@ import 'package:ui/home_part1.dart';
 import 'package:ui/home_part2.dart';
 import 'package:ui/language.dart';
 import 'package:ui/lets_start.dart';
-import 'package:ui/login.dart';
+import 'package:ui/features/auth/views/login.dart';
 import 'package:ui/profile.dart';
-import 'package:ui/register.dart';
+import 'package:ui/features/auth/views/register.dart';
 import 'package:ui/splash.dart';
 import 'package:ui/update_profile.dart';
 
@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
 //Language()
 //AddTask()
 //EditTask()
- EditTask2()
+EditTask2()
 
     
         );
