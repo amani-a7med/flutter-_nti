@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:ui/core/utils/app_assets.dart';
 
 class LetsStart extends StatelessWidget {
   const LetsStart({super.key});
@@ -12,7 +13,7 @@ class LetsStart extends StatelessWidget {
         child: Column(
           children: [
             SizedBox(height: 90.h),
-            Image.asset("assets/lets.png", width: 301.7.w, height: 342.h),
+            Image.asset(AppAssets.vector, width: 301.7.w, height: 342.h),
             SizedBox(height: 60.h),
             Column(
               mainAxisAlignment: MainAxisAlignment.center,

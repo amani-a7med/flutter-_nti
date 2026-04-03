@@ -6,7 +6,7 @@ class Profile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(backgroundColor: Color( 0xfffF3F5F4),
+    return Scaffold(backgroundColor: Color( 0xffff3f5f4),
       appBar: AppBar(
         title: Row(
           children: [

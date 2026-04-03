@@ -1,18 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:ui/add_task.dart';
-import 'package:ui/change_password.dart';
-import 'package:ui/edit_task.dart';
-import 'package:ui/edit_task2.dart';
-import 'package:ui/home_part1.dart';
-import 'package:ui/home_part2.dart';
-import 'package:ui/language.dart';
-import 'package:ui/lets_start.dart';
-import 'package:ui/features/auth/views/login.dart';
-import 'package:ui/profile.dart';
-import 'package:ui/features/auth/views/register.dart';
-import 'package:ui/splash.dart';
-import 'package:ui/update_profile.dart';
+import 'package:ui/features/auth/date/views/login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,21 +19,7 @@ class MyApp extends StatelessWidget {
       builder: (context, child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
-          home: //Splash(),
-         // LetsStart()
-   //Register()
-     //Login()
-     // homePart1()
-  //HomePart2()
-//Profile()
-//UpdateProfile()
-//ChangePassword()
-//Language()
-//AddTask()
-//EditTask()
-EditTask2()
-
-    
+          home: LoginView(),
         );
       },
     );

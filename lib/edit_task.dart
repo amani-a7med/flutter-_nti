@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:ui/core/utils/app_assets.dart';
 
 class EditTask extends StatelessWidget {
   const EditTask({super.key});
@@ -17,7 +18,7 @@ class EditTask extends StatelessWidget {
           Row(
             children: [
               CircleAvatar(
-                backgroundImage: AssetImage('assets/register.png'),
+                backgroundImage: AssetImage(AppAssets.flag),
               ),
               SizedBox(width: 10.w),
               Column(
